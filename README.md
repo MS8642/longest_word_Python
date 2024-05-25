@@ -47,3 +47,29 @@ print(x)
 longest_word = max(x, key=len)
 longest_lword=(len(longest_word))
 print("The longest word has " ,longest_lword, " letters.")
+
+# How does it work: the selected text is 
+# saved in a variable "text" within the
+# brackets like this : text = (...)
+
+# The command .split() will split the
+# given text in a variable (specify
+# your variable which you want to save)
+# , in this case, it is variable
+# text, in to a list. .sort()
+# command will sort the list
+# of words in ascending order
+# (that is, A-Z).
+# You can see the result by 
+# using the print() command.
+
+# To find the longest word
+# the command 
+# longest_word = max(x, key=len)
+# the longest word will be found this way.
+
+# Note: it is possible to find how many 
+# letters are there in the longest
+# code. The longest word saved in a
+# variable needs to be used with
+# a function len(variable_longest_word).
